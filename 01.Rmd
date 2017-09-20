@@ -1,24 +1,47 @@
-# My first cool idea {#slug-one}
+# EcoFridge - No Food Left Behind {#ecofridge}
 
 #### Keywords
 
-yaba, daba, do
+food waste, appliances, environment, climate change, household, restaurants, food
 
 ## A beginning.
 
-Chartreuse next level beard, gochujang vexillologist letterpress meggings.  Godard in  vero, raw denim asymmetrical small batch shabby chic.  Four loko id  actually, pug sartorial sustainable twee live-edge ea chartreuse typewriter disrupt ut direct trade  accusamus.  Nesciunt hoodie live-edge hell of cred, man braid ex mixtape tumblr odio skateboard 8-bit.  Cold-pressed portland nesciunt schlitz organic, lyft bespoke keffiyeh jianbing migas plaid.  Aute  delectus id  master cleanse migas.  Assumenda enamel pin man braid tumblr, four dollar toast YOLO selfies pitchfork tacos kale chips cronut hot chicken.
+WorldWatch Institute estimates that “…An average family [in the U.S.] tosses out $2,500 worth of food in a year, while the average person throws out around 20 pounds of food in a month. For the consumer, it means loss of money. For the environment, it means higher landfill volumes that lead to increased emission of methane, a powerful greenhouse gas that contributes to global warming and climate change. Furthermore, food waste represents a waste of energy and resources that are involved in growing, manufacturing and transporting the food.
+
+So how can the average person be better equipped to reduce their food waste? Introducing EcoFridge, a refrigerator that keeps track of your food and their expiration dates, without you having to take any extra steps.
 
 ## A middle.
 
-Deep v accusamus fingerstache tempor kickstarter, sunt banjo tumeric franzen irure  beard af velit  meditation kogi.  Keffiyeh fam shoreditch voluptate  pork belly.  Trust fund vape fixie, dolor  lomo exercitation cardigan.  Meggings hot chicken chartreuse, health goth 3 wolf moon lumbersexual deep v et celiac art party.  Keffiyeh magna mlkshk drinking vinegar, tbh mollit  thundercats heirloom health goth kale chips kitsch gochujang chambray aute  +1.  Heirloom ugh chicharrones franzen locavore swag.  Hexagon man braid lomo, gentrify elit shoreditch flexitarian single-origin coffee gochujang kitsch nihil yuccie mlkshk.
+Many companies have tried to provide a solution to this all-too-common habit of letting your food go bad in the fridge. However, they still require too much effort on the user’s end. Mobile applications like Fridgely require the user to scan the barcode of the items in their fridge. Samsung and LG both offer Smart Refrigerators that have built-in cameras but still require manual labeling of expiration dates for food. 
 
-<!-- ...or include images directly from the web. Cite your sources! -->
-```{r machine-learning,echo=FALSE,fig.cap='[xkcd: Machine Learning](https://xkcd.com/1838/)',fig.align='center',out.width='50%'}
-knitr::include_graphics('https://imgs.xkcd.com/comics/machine_learning.png')
-```
+So what if the refrigerator could do all the work for you? While we all wish our refrigerators look as clean and neat like this:
+http://www.samsung.com/uk/refrigerators/french-door-rf56m9540sr/
 
-Commodo mustache pinterest yr, nostrud nesciunt esse  photo booth.  Keytar synth mlkshk, ullamco veniam sed laboris  seitan velit  live-edge fam gastropub.  Ad mumblecore nihil messenger bag williamsburg occaecat.  Bushwick pickled ullamco, keytar letterpress vice chillwave cillum.  Voluptate  listicle irure  food truck coloring book shoreditch.  Before they sold out four dollar toast stumptown single-origin coffee, retro nostrud veniam dreamcatcher street art subway tile sed pabst hoodie copper mug.  Everyday carry seitan vaporware gastropub etsy, freegan ramps hashtag vegan.
+We all know it’s closer to this:
+http://www.splendidtable.org/sites/default/files/AmusementPark.jpg
+
+EcoFridge has 12 built-in cameras that offers a comprehensive view of the contents of your fridge and takes photos of the inventory twice a day. These photos are then processed through our image classification model that’s learned what various food products look like from images obtained from Open Food Facts - United States. The goal of the model is to accurately classify each item in the fridge into 7 food categories: Breads, Baked Goods, Dairy Products, Fruits, Meats, Seafood and Fish and Vegetables that commonly require refrigerated storage. From there, it would search through an existing dictionary of food storage guidelines (created from What’s Cooking America’s Food Storage Chart) and find the best match for the product name (i.e. if a product had “Beef Chuck 7-Bone Pot Roast - Ranchers Reserve”, it would go under “Sausage, fresh; raw from chicken, turkey, pork, beef”). Then EcoFridge would tag the product with the respective expiration date and keep track of the various expiration dates on an internal calendar. 
+
+Once a product is about to expire, EcoFridge will alert the user through their phones and recommend recipes for the user, as well as recommend they move the item into the freezer upon their next visit to their fridge (which will subsequently be tagged with another expiration date). Additionally, EcoFridge will take note of items that are unused by the expiration date and send the user a monthly report of recommended amounts per product for future purchases. 
+
 
 ## An end.
 
-90's salvia echo park voluptate, ennui pitchfork church-key photo booth pug aesthetic offal.  Jianbing lomo disrupt before they sold out umami.  Sapiente in  swag yr leggings, selfies distillery fap enamel pin elit aliquip listicle organic master cleanse pug.  La croix coloring book cray, vice ullamco cornhole whatever copper mug neutra pour-over vinyl kogi incididunt tilde gastropub.  Prism veniam VHS, sustainable ea meh viral duis.  Hell of health goth 8-bit microdosing sed keffiyeh.  Laboris  marfa hell of chartreuse celiac poutine keytar, iceland scenester enim nihil man bun church-key forage fam.
+As the EPA states, “Food is the largest stream of materials in American trash.” With restaurants and consumers onboard in being more conscious on actually food consumption and loss, we can lower our carbon footprint, lower methane emissions from landfills and hopefully conserve valuable energy and resources. 
+
+It’s important to note that while EcoFridge will do the heavy work of managing your food inventory and expiration dates, it still requires some effort from the user. Once the user is notified about an upcoming expiration date, they will have to take action in making sure the food does not go to waste, whether it’s cooking the food or donating it. If the food has gone bad, they will have to compost the waste correctly to make sure it stays out of the landfill. Lastly, EcoFridge is currently unable to classify leftovers from eating out or food that’s been taken out of their packaging.
+
+References
+LG adds a tablet and Alexa to its see-through smart fridge
+Andrew Gebhart Andrew- https://www.cnet.com/products/lg-smart-instaview-door-in-door-refrigerator/
+
+The 'Smart Fridge' Finds The Lost Lettuce, For A Price
+Eliza Barclay - http://www.npr.org/sections/thesalt/2012/05/03/151968878/the-smart-fridge-finds-the-lost-lettuce-for-a-price
+
+Open Food Facts - United States https://us.openfoodfacts.org/
+
+Food: Too Good to Waste Implementation Guide and Toolkit
+https://www.epa.gov/sustainable-management-food/food-too-good-waste-implementation-guide-and-toolkit
+
+Food Storage Guidelines, What's Cooking America
+Linda Stradley - https://whatscookingamerica.net/Information/FreezerChart.htm
