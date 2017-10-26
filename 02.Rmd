@@ -1,25 +1,17 @@
-# My second cool idea {#slug-two}
+# Infrared Perspective: Measure Attendance for Non-Ticketed, Outdoor Events
 
-#### Keywords
-
-yaba, daba, do
+#### image processing, events, event planning
 
 ## A beginning.
 
-Nulla  sint  art party ex, mlkshk disrupt selvage 90's.  Umami sed slow-carb, fugiat  dolore nihil glossier magna migas actually farm-to-table microdosing keytar fixie.  IPhone fashion axe pinterest, cardigan street art quinoa banh mi bitters mollit  commodo pok pok culpa  delectus ut air plant.  Offal edison bulb ex, celiac 8-bit vaporware polaroid thundercats flannel kickstarter labore.  Activated charcoal portland af tousled microdosing woke, in  thundercats consectetur gluten-free hammock duis  next level DIY.  Keffiyeh commodo velit  mollit  brunch, cronut edison bulb banh mi swag stumptown crucifix hell of.  Brunch williamsburg try-hard, seitan literally vexillologist venmo DIY pariatur nesciunt master cleanse XOXO.
+Off the Grid is a food truck events company in the Bay Area that hosts 70 weekly events in 26 cities. As the company opens in new locations, a recurring issue at their grand opening events is tremendous event attendance met with insufficient food supply. With every food truck that sells out, there’s a loss of revenue and a dire impact on customer retention as wait time increases and customer satisfaction diminishes. Thus, the company needs a better way to forecast attendance in order to better prepare their food truck vendors for the potential turnout. A step towards this goal is figuring out a way to accurately estimate attendance for their events, which are non-ticketed, outdoors and temporary.
 
 ## A middle.
 
-8-bit synth irony nisi wolf, street art dreamcatcher flannel placeat selvage health goth sriracha.  Glossier labore ex venmo, cillum  live-edge jianbing everyday carry af cray laborum incididunt eiusmod jean shorts.  Normcore slow-carb lyft letterpress, beard tilde art party.  Poke marfa incididunt tempor duis.  Iceland fam ex beard, activated charcoal vaporware nesciunt lyft cronut four dollar toast irony.  Officia  stumptown voluptate  unicorn culpa  bushwick.  Mollit  vero af marfa deserunt  flexitarian.
+While the company currently utilizes clickers to count attendance, this method is prone to human error. There are also unaccounted discrepancies when there are multiple entrances and exits to the event. As a mobile event that resides in a location for 3-4 hours, they need a solution that is quick to setup and uninstall. 
 
-
-```{r experimental,echo=F,results='asis',eval=F}
-data.table::fread('https://raw.githubusercontent.com/UCB-MIDS/experiments-causality/master/data/GerberGreenBook_Chapter3_Donations.csv?token=ABNmuX-Q14rzQ4teItDenc9L5Wo2flncks5ZL5qEwA%3D%3D') %>% stargazer::stargazer(type = 'html',title = 'Something from W241 Experiments and Causality')
-```
-
-
-Laborum williamsburg sunt whatever, DIY reprehenderit  retro vaporware id  hella flannel sartorial vero fugiat  before they sold out.  Copper mug salvia keffiyeh, neutra nostrud iceland keytar kogi church-key quinoa ramps mlkshk.  Seitan mollit  3 wolf moon, forage shabby chic cillum  church-key tofu exercitation aliquip.  Church-key distillery flexitarian meh incididunt retro, ugh wolf selvage hashtag.  Bicycle rights 90's officia  vape.  Listicle post-ironic vape ex.  Gluten-free lomo tumeric, yuccie everyday carry tempor put a bird on it knausgaard nisi ugh skateboard VHS.
+Introducing Infrared Perspective. It’s a portable and compact, suitable for a fixed mount on Off the Grid’s trucks that are present at each of their events or for aerial use on drones when more visibility is necessary. The camera captures infrared images to maintain anonymity for customers. Infrared Perspective capture a series of images within an automatic timed sequence and the analysis software uses image processing to count the number of people per event. Infrared Perspective is affordable as its primary purpose is to detect human presence, minimizing its need for a wide detection range and high resolution that often brings up prices for infrared cameras.
 
 ## An end.
 
-Kombucha pok pok lomo, forage bicycle rights paleo kickstarter literally.  Hot chicken dolor  vegan accusamus master cleanse tousled, yuccie cliche retro aesthetic bushwick actually.  Ennui viral VHS pitchfork pop-up cornhole, nihil quinoa scenester gentrify occaecat  YOLO anim.  Umami copper mug live-edge, air plant meditation bushwick chartreuse adipisicing tousled.  Art party affogato chicharrones, photo booth enim swag vero meh seitan +1 activated charcoal nihil.  Etsy gluten-free authentic mixtape.  Shabby chic duis  90's pop-up pinterest, lumbersexual mollit  cillum.
+With the ability to successfully measure attendance, Off the Grid can start recording this data and eventually pair it with sales and promotional channel metrics such as Facebook event RSVPs or physical signage placement. Understanding the relationship between these components of the event will shed light on customer behavior (i.e. average spending, cuisine preferences), advertising ROI and allow for forecasting attendance at future events.
