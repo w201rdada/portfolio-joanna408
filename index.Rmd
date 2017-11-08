@@ -1,7 +1,7 @@
 ---
 title: "W201 Portfolio"
-author: "Oski Bear"
-date: "MIDS Summer 2017"
+author: "Joanna Huang"
+date: "MIDS Fall 2017"
 site: bookdown::bookdown_site
 documentclass: book
 ---
@@ -29,15 +29,11 @@ knitr::include_url('https://drive.google.com/file/d/0B6bobRDQR96iVEV3SXJJal9CczQ
 
 ### Abstract of my first cool idea
 
-Pop-up occupy labore, pug tofu nisi franzen YOLO tilde tumblr deep v nulla  aliqua.  Sapiente stumptown et lo-fi art party.  Eu  snackwave glossier, poutine crucifix tattooed labore thundercats hexagon tempor brunch single-origin coffee synth four loko.  Velit  beard ex etsy migas, tempor hashtag.  Live-edge fap yr food truck, heirloom snackwave tempor laborum green juice man bun selvage sriracha gastropub.  Before they sold out incididunt godard cupidatat  exercitation street art health goth ullamco, flannel dolore kombucha bespoke.  Pok pok tilde mixtape, magna swag iceland tote bag gentrify dolor  delectus.
+Food waste is a widespread problem in the U.S. as nearly half of the food grown, processed and transported in the U.S. goes to waste. For the environment, it means a waste of energy and resources and higher landfill volumes that lead to increased greenhouse gas emission that contributes to global warming and climate change. EcoFridge helps consumers reduce their food waste and become more conscious on their actual food consumption. With its 12-camera system, image classification models trained on food images and dictionary of food storage guidelines, EcoFridge tags products with the respective expiration dates and keeps track of the various expiration dates on an internal calendar. When a product is about to expire, they are alerted through their phones of next steps. Furthermore, EcoFridge will take note of items that are unused by the expiration date and send the user a monthly report of recommended amounts per product for future purchases. By reducing the manual effort required on the consumer’s end, EcoFridge can help lower our carbon footprint, lower methane emissions from landfills and hopefully conserve valuable energy and resources.
 
 ### Abstract of my second cool idea
 
-Vero dolor  franzen letterpress.  Taxidermy pork belly messenger bag, deserunt  aliqua irure  photo booth neutra banh mi fanny pack.  Butcher fam heirloom marfa.  Tilde reprehenderit  snackwave tempor.  Qui  pop-up kitsch dolor.  Crucifix consectetur culpa  lumbersexual salvia exercitation small batch.  Pop-up duis  id  semiotics before they sold out kombucha raclette, twee selvage pitchfork.
-  
-### Abstract of my third cool idea
-
-Activated charcoal succulents ex, pop-up minim neutra pork belly nulla  helvetica semiotics dolor  magna jianbing.  Asymmetrical franzen humblebrag, venmo kale chips offal velit  distillery blog copper mug exercitation pariatur helvetica tacos officia.  Trust fund etsy commodo umami excepteur  lo-fi, locavore humblebrag dolore artisan cliche sustainable chartreuse.  Mustache pork belly kitsch blue bottle jean shorts, intelligentsia hammock consequat hoodie heirloom single-origin coffee.  Godard nulla  yr, cray taxidermy vice pug hashtag ad eiusmod subway tile flexitarian.  Tofu magna laboris  thundercats neutra, mumblecore truffaut small batch hashtag chillwave listicle ramps eiusmod selfies meh.  Bushwick butcher cupidatat  hella organic.
+Attendance is one of the most important elements in planning and assessing the success of various types of events. Without purchased tickets as a definite indication of attendance, non-ticketed events face a specific challenge as they must predict attendance and plan for production level based on a combination of other signals including social media engagement, weather conditions and vendor klout (online social influence measured by followers). Thus, with its integrations to social media networks, weather APIs and event company's sales and attendance data, Event Foresight uses its comprehensive data tracking and runs a regression analysis to generate an attendance forecast that can be used in key decision-making in event preparation.
 
 ## About the author
 
