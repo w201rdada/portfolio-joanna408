@@ -30,12 +30,13 @@ Food waste is a widespread problem in the U.S. as nearly half of the food grown,
 
 Attendance is one of the most important elements in planning and assessing the success of various types of events. Without purchased tickets as a definite indication of attendance, non-ticketed events face a specific challenge as they must predict attendance and plan for production level based on a combination of other signals including social media engagement, weather conditions and vendor klout (online social influence measured by followers). Thus, with its integrations to social media networks, weather APIs and event company's sales and attendance data, Event Foresight uses its comprehensive data tracking and runs a regression analysis to generate an attendance forecast that can be used in key decision-making in event preparation.
 
-## About the author
+## About the author  
 
 <!-- You can include images saved within your repo... -->
 ```{r joanna,echo=FALSE,fig.align='center',out.width='50%'}
 knitr::include_graphics('img/joanna.jpg')
 ```
+
 Joanna is an aspiring data scientist interested in leveraging data to help businesses understand and predict patterns of consumer behavior.
 
 She has five years of experience in digital marketing for small to mid-sized brands in areas including social media marketing, email marketing and content creation. Most recently, she worked in the outdoor events space where she became deepy curious about how online behaviors translate to offline sales. In her free time, she is a food lover who enjoys testing new recipes in her kitchen and checking out new restaurants in the city.
