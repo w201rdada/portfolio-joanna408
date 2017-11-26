@@ -2,12 +2,12 @@
 
 # put your info here and uncomment so git (and GitHub) knows who your commits belong to!
 git config user.email "joanna.huang@berkeley.edu"
-git config user.name "joanna408"
+git config user.name "Joanna Huang"
 
 # make sure you're on the master branch
 git checkout master
 
-cd /home/rstudio \
+cd /home/rstudio/ \
 && rm -rf docs/ \
 && mv -u -T _book/ docs/
 
@@ -18,10 +18,9 @@ Disallow: /" > docs/robots.txt
 # site will be public so dissuade robots and search engines from crawling your page
 git add . \
 && git commit -m "deploy" || true \
-&& git status \
-&& echo 'Ready to push with authorization.
+&& echo '
+Ready to push with authorization.
 In Rstudio use menu "Tools > Shell..." and enter:
-
 git push origin master
 	
 Or from an open Rstudio project use menu
