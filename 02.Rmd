@@ -2,9 +2,10 @@
 
 #### predictive analytics, image processing, events, event planning
 
-```{r off_the_grid_fmc,echo=FALSE,fig.align='center',out.width='100%'}
+```{r off_the_grid_fmc,echo=FALSE,fig.align='center',out.width='75%'}
 knitr::include_graphics('img/off_the_grid_fmc.jpg')
 ```
+
 ## Breaking the Vicious Cycle
 
 Off the Grid is a food truck events company in the Bay Area that hosts 70 weekly events in 26 cities. As the company opens in new locations, a recurring issue at their grand opening events is tremendous event attendance met with insufficient food supply. With every food truck that sells out, there’s a loss of revenue and a dire impact on customer retention as wait time increases and customer satisfaction diminishes. Thus, the company needs a better way to forecast attendance in order to better prepare their food truck vendors for the potential turnout. A step towards this goal is figuring out a way to accurately predict attendance for their events, which are non-ticketed, outdoors and temporary.
