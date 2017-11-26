@@ -1,13 +1,13 @@
 #!/bin/sh
 
 # put your info here and uncomment so git (and GitHub) knows who your commits belong to!
-# git config user.email "calnet@berkeley.edu"
-# git config user.name "Oski Bear"
+git config user.email "joanna.huang@berkeley.edu"
+git config user.name "joanna408"
 
 # make sure you're on the master branch
 git checkout master
 
-cd /home/oski \
+cd /home/rstudio \
 && rm -rf docs/ \
 && mv -u -T _book/ docs/
 

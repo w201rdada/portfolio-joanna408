@@ -4,23 +4,26 @@
 
 food waste, appliances, environment, climate change, household, restaurants, food
 
-## A beginning.
+## Food Waste and Its Unseen Effects
 
-WorldWatch Institute estimates that “…An average family [in the U.S.] tosses out $2,500 worth of food in a year, while the average person throws out around 20 pounds of food in a month. For the consumer, it means loss of money. For the environment, it means higher landfill volumes that lead to increased emission of methane, a powerful greenhouse gas that contributes to global warming and climate change. Furthermore, food waste represents a waste of energy and resources that are involved in growing, manufacturing and transporting the food.
+WorldWatch Institute estimates that “…An average family [in the U.S.] tosses out $2,500 worth of food in a year, while the average person throws out around 20 pounds of food in a month. For the consumer, it means loss of money. For the environment, it means higher landfill volumes that lead to increased greenhouse gas emissions that contribute to global warming and climate change. Furthermore, food waste represents a waste of energy and resources that are involved in growing, manufacturing and transporting the food.
 
-So how can the average person be better equipped to reduce their food waste? Introducing EcoFridge, a refrigerator that keeps track of your food and their expiration dates, without you having to take any extra steps.
+According to Unilever, "reducing consumer food waste could save between US$120-300 billion per year by 2030 and reduce greenhouse gas emissions by 1 billion tons CO2 per year..." So how can the average person join the effort in helping our environment by reducing food waste? Introducing EcoFridge, a refrigerator that keeps track of your food and their expiration dates, without you having to take any extra steps.
 
-## A middle.
+## Reduce Waste with EcoFridge
 
-Many companies have tried to provide a solution to this all-too-common habit of letting your food go bad in the fridge. However, they still require too much manual effort on the user’s end. So what if the refrigerator could do all the work? 
+```{r national_geographic_fridge,echo=FALSE, fig.cap= ' Photograph by Mark Menjivar from National Geographic', fig.align='center',out.width='50%'}
+knitr::include_graphics('img/national_geographic_fridge.jpg')
+```
+Many companies have tried to provide a solution to this all-too-common habit of letting your food go bad in the fridge. Mobile applications like Fridgely require the user to scan the barcode of the items in their fridge. Samsung and LG both offer Smart Refrigerators that have built-in cameras but still require manual labeling of expiration dates for food. However, current solutions require too much manual effort on the user’s end. 
 
-EcoFridge has 12 built-in cameras that offers a comprehensive view of the contents of your fridge and takes photos of the inventory twice a day. These photos are then processed through our image classification model that’s learned what various food products look like from images obtained from Open Food Facts - United States. The goal of the model is to accurately classify each item in the fridge into 7 food categories: Breads, Baked Goods, Dairy Products, Fruits, Meats, Seafood and Fish and Vegetables that commonly require refrigerated storage. From there, it would search through an existing dictionary of food storage guidelines and find the best match for the product name. Then EcoFridge would tag the product with the respective expiration date and keep track of the various expiration dates on an internal calendar. When a product is not recognized, EcoFridge will flag the item and request a label from the user through their phones. If no entry is recorded, an automatic 5-day expiration label will be placed. 
+So what if the refrigerator could do all the work?  EcoFridge has 12 built-in cameras that offers a comprehensive view of the contents of your fridge and takes photos of the inventory twice a day. These photos are then processed through our image classification model that’s learned what various food items look like from images obtained from Open Food Facts - United States. The goal of the model is to accurately classify each item in the fridge into 7 food categories: Breads, Baked Goods, Dairy Products, Fruits, Meats, Seafood and Fish and Vegetables that commonly require refrigerated storage. From there, it would search through an existing dictionary of food storage guidelines and find the best match for the product name. Then EcoFridge would tag the product with the respective expiration date and keep track of the various expiration dates on an internal calendar. When a product is not recognized, EcoFridge will flag the item and request a label from the user through their phones. If no entry is recorded, an automatic 5-day expiration label will be placed. 
 
 Once a product is about to expire, EcoFridge will alert the user through their phones, as well as recommend they move the item into the freezer upon their next visit to their fridge (which will subsequently be tagged with another expiration date). If the user finds the product is still fine for consumption, they can manually enter a new expiration date, which will then be updated in EcoFridge's database. Additionally, EcoFridge will take note of items that are unused by the expiration date and send the user a monthly report of recommended amounts per product for future purchases. 
 
-## An end.
+## Beyond EcoFridge
 
-As the EPA states, “Food is the largest stream of materials in American trash.” To promote wide adoption of EcoFridge's sustainability goal, we plan to not only sell EcoFridge as a standalone product, but also license the image classificaiton technology to traditional OEMs. With restaurants and consumers onboard in being more conscious on actual food consumption and loss, we can lower our carbon footprint, lower methane emissions from landfills and hopefully conserve valuable energy and resources.
+As the EPA states, “Food is the largest stream of materials in American trash.” To promote wide adoption of EcoFridge's sustainability goal, we plan to not only sell EcoFridge as a standalone product, but also license the image classification technology to existing fridge manufacturers. With restaurants and consumers onboard in being more conscious on actual food consumption and loss, we can lower our carbon footprint, lower methane emissions from landfills and hopefully conserve valuable energy and resources.
 
 It’s important to note that while EcoFridge will do the heavy work of managing your food inventory and expiration dates, it still requires some effort from the user. Once the user is notified about an upcoming expiration date, they will have to take action in making sure the food does not go to waste, whether it’s cooking the food or donating it. If the food has gone bad, they will have to compost the waste correctly to make sure it stays out of the landfill.
 
@@ -38,3 +41,5 @@ https://www.epa.gov/sustainable-management-food/food-too-good-waste-implementati
 
 Food Storage Guidelines, What's Cooking America
 Linda Stradley - https://whatscookingamerica.net/Information/FreezerChart.htm
+
+One-Third of Food Is Lost or Wasted: What Can Be Done Elizabeth Royte, National Geographic- https://news.nationalgeographic.com/news/2014/10/141013-food-waste-national-security-environment-science-ngfood/

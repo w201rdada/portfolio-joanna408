@@ -13,13 +13,8 @@ library(magrittr)
 
 
 # Welcome!
+If you're interested in food-related topics or consumer marketing in the digital space, you're in the right place.
 
-<!-- You can include images saved within your repo... -->
-```{r hello-world,echo=FALSE,fig.cap='Hello World!',fig.align='center',out.width='50%'}
-knitr::include_graphics('img/hello-world.png')
-```
-
-Pariatur sapiente anim  waistcoat bicycle rights.  Cupidatat  chambray portland direct trade, XOXO odio gochujang banjo deep v sustainable.  Sint  jianbing DIY humblebrag heirloom exercitation ennui fanny pack.  Dolore small batch lomo, godard slow-carb odio exercitation organic cred cray la croix vinyl nisi hot chicken.  Gentrify schlitz stumptown fam, cray hoodie excepteur  hammock kinfolk 8-bit hell of plaid.  Helvetica hashtag pinterest typewriter, tbh vape vero farm-to-table.  Laboris  bitters aliqua small batch.
 
 <!-- Below this line is just examples of how you can embed video from Google Drive. First you have to enable sharing, then just get the object ID which is that long string between d/ and /preview and will also be appended to any sharing link you generate for your video. -->
 <p>
@@ -37,6 +32,12 @@ Attendance is one of the most important elements in planning and assessing the s
 
 ## About the author
 
-Sustainable aute  gochujang, messenger bag vero dolor  blog pork belly knausgaard.  Tacos brooklyn lumbersexual keytar, literally chambray iceland street art pickled master cleanse in  roof party activated charcoal jean shorts craft beer.  Semiotics tempor enamel pin nesciunt, aliquip live-edge keytar yr street art waistcoat cray everyday carry eu  sint  pariatur.  Aliquip anim  godard leggings, flexitarian direct trade  humblebrag.  Non  ennui fashion axe nesciunt, poke af kinfolk direct trade  franzen banh mi.  Craft beer laborum crucifix pork belly retro, health goth tacos est  godard four dollar toast tousled bushwick exercitation nihil normcore.  Semiotics meggings pok pok church-key whatever art party, truffaut franzen poke.
+<!-- You can include images saved within your repo... -->
+```{r joanna,echo=FALSE,fig.align='center',out.width='50%'}
+knitr::include_graphics('img/joanna.jpg')
+```
+Joanna is an aspiring data scientist interested in leveraging data to help businesses understand and predict patterns of consumer behavior.
+
+She has five years of experience in digital marketing for small to mid-sized brands in areas including social media marketing, email marketing and content creation. Most recently, she worked in the outdoor events space where she became deepy curious about how online behaviors translate to offline sales. In her free time, she is a food lover who enjoys testing new recipes in her kitchen and checking out new restaurants in the city.
 
 *Updated: `r Sys.Date()`*
