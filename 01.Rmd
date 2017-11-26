@@ -12,7 +12,7 @@ According to Unilever, "reducing consumer food waste could save between US$120-3
 
 ## Reduce Waste with EcoFridge
 
-```{r national_geographic_fridge,echo=FALSE, fig.cap= ' Photograph by Mark Menjivar from National Geographic', fig.align='center',out.width='50%'}
+```{r national_geographic_fridge,echo=FALSE, fig.cap= ' Photograph by Mark Menjivar from National Geographic', fig.align='center',out.width='100%'}
 knitr::include_graphics('img/national_geographic_fridge.jpg')
 ```
 Many companies have tried to provide a solution to this all-too-common habit of letting your food go bad in the fridge. Mobile applications like Fridgely require the user to scan the barcode of the items in their fridge. Samsung and LG both offer Smart Refrigerators that have built-in cameras but still require manual labeling of expiration dates for food. However, current solutions require too much manual effort on the user’s end. 
