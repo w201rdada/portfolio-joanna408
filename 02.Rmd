@@ -1,4 +1,4 @@
-# Event Foresight: Predict Attendance for Non-Ticketed Events {-}
+# Event Foresight: Predict Attendance for Non-Ticketed Events {eventforesight}
 
 #### Keywords {-}
 predictive analytics, image processing, events, event planning
