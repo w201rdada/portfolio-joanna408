@@ -18,17 +18,19 @@ If you're interested in food-related topics or consumer marketing in the digital
 
 <!-- Below this line is just examples of how you can embed video from Google Drive. First you have to enable sharing, then just get the object ID which is that long string between d/ and /preview and will also be appended to any sharing link you generate for your video. -->
 <p>
-```{r hello-benji,echo=FALSE,fig.cap='Hello Benjamin Franklin!',fig.align='center'}
-knitr::include_url('https://drive.google.com/file/d/0B6bobRDQR96iVEV3SXJJal9CczQ/preview')
+```{r hello-joanna,echo=FALSE,fig.cap='Everyone- hear me talk about my idea, Event Foresight!',fig.align='center'}
+knitr::include_url('https://drive.google.com/file/d/17oNHGrP9HNWkmszdOVWdL4y126SO729s/preview')
 ```
+
 
 ### Abstract of my first cool idea
 
-Food waste is a widespread problem in the U.S. as nearly half of the food grown, processed and transported in the U.S. goes to waste. For the environment, it means a waste of energy and resources and higher landfill volumes that lead to increased greenhouse gas emission that contributes to global warming and climate change. EcoFridge helps consumers reduce their food waste and become more conscious on their actual food consumption. With its 12-camera system, image classification models trained on food images and dictionary of food storage guidelines, EcoFridge tags products with the respective expiration dates and keeps track of the various expiration dates on an internal calendar. When a product is about to expire, they are alerted through their phones of next steps. Furthermore, EcoFridge will take note of items that are unused by the expiration date and send the user a monthly report of recommended amounts per product for future purchases. By reducing the manual effort required on the consumer’s end, EcoFridge can help lower our carbon footprint, lower methane emissions from landfills and hopefully conserve valuable energy and resources.
+Attendance is one of the most important elements in planning and assessing the success of various types of events. Without purchased tickets as a definite indication of attendance, non-ticketed events face a specific challenge as they must predict attendance and plan for production level based on a combination of other signals including social media engagement, weather conditions and vendor klout (online social influence measured by followers). Thus, with its integrations to social media networks, weather APIs and event company's sales and attendance data, Event Foresight uses its comprehensive data tracking and runs a regression analysis to generate an attendance forecast that can be used in key decision-making in event preparation.
 
 ### Abstract of my second cool idea
 
-Attendance is one of the most important elements in planning and assessing the success of various types of events. Without purchased tickets as a definite indication of attendance, non-ticketed events face a specific challenge as they must predict attendance and plan for production level based on a combination of other signals including social media engagement, weather conditions and vendor klout (online social influence measured by followers). Thus, with its integrations to social media networks, weather APIs and event company's sales and attendance data, Event Foresight uses its comprehensive data tracking and runs a regression analysis to generate an attendance forecast that can be used in key decision-making in event preparation.
+Food waste is a widespread problem in the U.S. as nearly half of the food grown, processed and transported in the U.S. goes to waste. For the environment, it means a waste of energy and resources and higher landfill volumes that lead to increased greenhouse gas emission that contributes to global warming and climate change. EcoFridge helps consumers reduce their food waste and become more conscious on their actual food consumption. With its 12-camera system, image classification models trained on food images and dictionary of food storage guidelines, EcoFridge tags products with the respective expiration dates and keeps track of the various expiration dates on an internal calendar. When a product is about to expire, they are alerted through their phones of next steps. Furthermore, EcoFridge will take note of items that are unused by the expiration date and send the user a monthly report of recommended amounts per product for future purchases. By reducing the manual effort required on the consumer’s end, EcoFridge can help lower our carbon footprint, lower methane emissions from landfills and hopefully conserve valuable energy and resources.
+
 
 ## About the author  
 
