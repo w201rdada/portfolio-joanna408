@@ -1,6 +1,7 @@
 # Event Foresight: Predict Attendance for Non-Ticketed Events {-}
 
-#### predictive analytics, image processing, events, event planning {-}
+#### Keywords {-}
+predictive analytics, image processing, events, event planning
 
 ```{r off_the_grid_fmc,echo=FALSE,fig.align='center',out.width='75%'}
 knitr::include_graphics('img/off_the_grid_fmc.jpg')
